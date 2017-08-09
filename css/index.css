@@ -1,8 +1,4 @@
 
-@@font-face {
-  font-family: "OratorStd";
-  src: url(../fonts/OratorStd.otf);
-}
 html, body {
   margin: 0;
   padding: 0;
@@ -26,7 +22,7 @@ html, body {
   background-color: transparent;
   border-color: #000;
   color: #000;
-  font-family: "OratorStd", sans-serif;
+  font-family: "Abel", sans-serif;
   text-align: center;
   align-items: center;
   padding: 8px 0px 3px 0px;
@@ -46,7 +42,7 @@ html, body {
 .hero > .fly-in-header li {
   display: inline-block;
   color: #000;
-  font-family: "OratorStd";
+  font-family: "Abel", sans-serif;
   font-style: thin;
   margin-right: 25px;
   font-size: 125px;
@@ -72,7 +68,7 @@ html, body {
   display: block;
   margin: -3vh auto 2vh auto;
   text-align: center;
-  font-family: "OratorStd";
+  font-family: "Abel", sans-serif;
   color: black;
   text-decoration: none;
 }
