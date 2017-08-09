@@ -1,0 +1,84 @@
+
+@@font-face {
+  font-family: "OratorStd";
+  src: url(../fonts/OratorStd.otf);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background: url("../res/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-outline-secondary {
+  border-radius: 2;
+  background-color: transparent;
+  border-color: #000;
+  color: #000;
+  font-family: "OratorStd", sans-serif;
+  text-align: center;
+  align-items: center;
+  padding: 8px 0px 3px 0px;
+  width: 200px;
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary.active{
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.hero > .fly-in-header {
+  list-style: none;
+  margin-bottom: -20px;
+  align-self: center;
+}
+.hero > .fly-in-header li {
+  display: inline-block;
+  color: #000;
+  font-family: "OratorStd";
+  margin-right: 25px;
+  font-size: 90px;
+  opacity: 1;
+  transition: all 1.5s ease;
+}
+.hero > .fly-in-header li:last-child {
+  margin-right: 0px;
+}
+.hero > .fly-in-header.hidden li {
+  opacity: 0;
+}
+.hero > .fly-in-header.hidden li:nth-child(1) { transform: translateX(-400px) translateY(-400px); }
+.hero > .fly-in-header.hidden li:nth-child(2) { transform: translateX(30px) translateY(100px); }
+.hero > .fly-in-header.hidden li:nth-child(3) { transform: translateX(400px) translateY(-20px); }
+
+#main-button {
+  margin: 0px 20px 0px 20px;
+  font-size: 20px;
+}
+
+.hero > .contactUs {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  margin: -3vh auto 2vh auto;
+  text-align: center;
+  font-family: "OratorStd";
+  color: black;
+  text-decoration: none;
+}
+
+.hero > .contactUs:hover {
+  color: black;
+  text-decoration: underline;
+}
