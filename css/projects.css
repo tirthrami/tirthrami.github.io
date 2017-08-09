@@ -28,7 +28,7 @@ body {
 
 .nav>a {
   position: relative;
-  font-family: "Abel", sans-serif;
+  font-family: "OratorStd";
   color: black;
   font-size: 35px;
   padding-left: 25px;
@@ -50,7 +50,7 @@ body {
 .comingSoon {
   display: block;
   text-align: center;
-  font-family: "Abel", sans-serif;
+  font-family: "OratorStd";
   color: black;
   text-decoration: none;
 }

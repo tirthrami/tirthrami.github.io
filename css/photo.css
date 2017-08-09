@@ -44,7 +44,7 @@ img {
 
 .nav>a {
   position: relative;
-  font-family: "Abel", sans-serif;
+  font-family: "OratorStd";
   color: black;
   font-size: 35px;
   padding-left: 25px;
@@ -70,7 +70,7 @@ img {
 }
 
 .subtitle {
-  font-family: "Abel", sans-serif;
+  font-family: "OratorStd";
   color: #333;
   font-size: 35px;
   width: 90vw;
@@ -89,7 +89,7 @@ img {
 #nav-link, li {
   display: inline-block;
   color: black;
-  font-family: "Abel", sans-serif;
+  font-family: "OratorStd";
   padding-right: 10px;
 }
 
@@ -101,7 +101,7 @@ img {
   display: block;
   margin: -3vh auto 2vh auto;
   text-align: center;
-  font-family: "Abel", sans-serif;
+  font-family: "OratorStd";
   color: black;
   text-decoration: none;
 }
