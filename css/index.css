@@ -60,7 +60,7 @@ html, body {
 }
 .hero > .fly-in-header.hidden li:nth-child(1) { transform: translateX(-400px) translateY(-400px); }
 .hero > .fly-in-header.hidden li:nth-child(2) { transform: translateX(30px) translateY(100px); }
-.hero > .fly-in-header.hidden li:nth-child(3) { transform: translateX(400px) translateY(-20px); }
+/*.hero > .fly-in-header.hidden li:nth-child(3) { transform: translateX(400px) translateY(-20px); } */
 
 #main-button {
   margin: 0px 20px 0px 20px;
