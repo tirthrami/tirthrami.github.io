@@ -1,8 +1,7 @@
 @@font-face {
-  font-family: "OratorStd";
-  src: url(../fonts/OratorStd.otf);
+  font-family: 'Abel';
+   src: url('Abel-Regular.ttf')  format('truetype');
 }
-
 * {
   padding: 0;
   margin: 0;
