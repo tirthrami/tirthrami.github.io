@@ -43,7 +43,7 @@ img {
 
 .nav>a {
   position: relative;
-  font-family: "Abel", serif;
+  font-family: "Abel", sans-serif;
   color: black;
   font-size: 35px;
   padding-left: 25px;
@@ -88,7 +88,7 @@ img {
 #nav-link, li {
   display: inline-block;
   color: black;
-  font-family: "Abel", sans-serif;
+  font-family: "Abel", serif;
   padding-right: 10px;
 }
 
