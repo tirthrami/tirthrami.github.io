@@ -86,6 +86,7 @@ img {
   top: 5vh;
   padding: 0;
   right: 0;
+  text-decoration: none;
 }
 #nav-link, li {
   display: inline-block;
@@ -96,7 +97,8 @@ img {
 }
 
 #nav-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #666;
 }
 
 .contactUs {
