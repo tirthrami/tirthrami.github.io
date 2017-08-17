@@ -92,6 +92,7 @@ img {
   color: black;
   font-family: "Abel", serif;
   padding-right: 10px;
+  text-decoration: none;
 }
 
 #nav-link:hover {
