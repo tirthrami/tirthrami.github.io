@@ -97,7 +97,7 @@ img {
 }
 
 #nav-link:hover {
-  text-decoration: none;
+  text-decoration: line-through;
   color: #666;
 }
 
