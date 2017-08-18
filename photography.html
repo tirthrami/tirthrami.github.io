@@ -13,7 +13,7 @@
   <script src="js/jquery.scrollTo.js" type="text/javascript"></script>
   <script type="text/javascript">
     function lightsOff() {
-      $('body').toggleClass('lightsoff');
+      $('.page').toggleClass('lightsoff');
       if(document.getElementById('lightsOffBtn').style === 'font-size:48px;color:black') {
         document.getElementById('lightsOffBtn').style='font-size:48px;color:white';
       } else {
@@ -70,6 +70,7 @@
   </div>
 
   <div class="divider"></div>
+  <div class="page">
   <a name="cityscapes"></a>
   <div class="subtitle">Cityscapes</div>
 
@@ -155,6 +156,7 @@
 </div>
 <div class="divider"></div>
 <!-- <a class="contactUs hidden" href="contactUs.php">Contact Us</a> -->
+</div>
 </body>
 
 </html>
