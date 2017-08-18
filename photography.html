@@ -15,7 +15,7 @@
     function lightsOff() {
       $('body').toggleClass('lightsoff');
       $('.nav').toggleClass('lightsoff');
-      if(document.getElementById('lightsOffBtn').style == 'font-size:48px;color:black') {
+      if(document.getElementById('lightsOffBtn').style === 'font-size:48px;color:black') {
         document.getElementById('lightsOffBtn').style='font-size:48px;color:white';
       } else {
         document.getElementById('lightsOffBtn').style='font-size:48px;color:black';
