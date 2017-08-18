@@ -13,8 +13,7 @@
   <script src="js/jquery.scrollTo.js" type="text/javascript"></script>
   <script type="text/javascript">
     function lightsOff() {
-      $('body').toggleClass('lightsoff');
-      $('.nav').toggleClass('lightsoff');
+      $('*').toggleClass('lightsoff');
       if(document.getElementById('lightsOffBtn').style === 'font-size:48px;color:black') {
         document.getElementById('lightsOffBtn').style='font-size:48px;color:white';
       } else {
