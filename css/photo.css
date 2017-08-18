@@ -18,6 +18,10 @@ body {
   background-color: #fff;
 }
 
+lightsoff {
+  background-color: #000;
+}
+
 img {
   object-fit: contain;
   margin: auto;

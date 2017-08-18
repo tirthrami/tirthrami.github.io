@@ -13,12 +13,7 @@
   <script src="js/jquery.scrollTo.js" type="text/javascript"></script>
   <script type="text/javascript">
     function lightsOff() {
-    if(document.body.css('color','#000')){
-      document.body.style.background = '#fff';
-    } else {
-      document.body.style.background = '#000';
-
-    }
+      $('body').toggleClass('lightsoff');
     }
 
     function nocontext(e) {
