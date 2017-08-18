@@ -18,9 +18,8 @@ body {
   background-color: #fff;
 }
 
-*>.lightsoff {
+.lightsoff {
   background-color: #111;
-  color: #fff;
 }
 
 img {
