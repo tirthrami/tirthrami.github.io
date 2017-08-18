@@ -109,7 +109,7 @@ img {
     z-index: 99; /* Make sure it does not overlap */
     border: black; /* Remove borders */
     outline: black; /* Remove outline */
-    background-color: white; /* Set a background color */
+    background-color: transparent; /* Set a background color */
     color: black; /* Text color */
 }
 
