@@ -12,6 +12,10 @@
   <script src="js/jquery.localScroll.js" type="text/javascript"></script>
   <script src="js/jquery.scrollTo.js" type="text/javascript"></script>
   <script type="text/javascript">
+    function lightsOff() {
+      document.body.style.background = '#000';
+    }
+
     function nocontext(e) {
       var clickedTag = (e == null) ? event.srcElement.tagName : e.target.tagName;
       if (clickedTag == "IMG")
@@ -64,7 +68,7 @@
   <a name="cityscapes"></a>
   <div class="subtitle">Cityscapes</div>
 
-  <button id="lightsOffBtn" style="font-size:48px;color:black"><i class="material-icons">lightbulb_outline</i></button>
+  <button id="lightsOffBtn" onclick="lightsOff()" style="font-size:48px;color:black"><i class="material-icons">lightbulb_outline</i></button>
 
   <!-- Picture Slideshow -->
   <div class="slider slider1">
