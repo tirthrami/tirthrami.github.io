@@ -70,8 +70,8 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
-    color: black;
+    opacity: 1;
+    color: #666;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
