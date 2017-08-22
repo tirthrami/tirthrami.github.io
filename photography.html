@@ -14,11 +14,8 @@
   <script type="text/javascript">
     function lightsOff() {
       $('.page').toggleClass('lightsoff');
-      if (document.getElementById('lightsOffBtn').style === 'font-size:48px;color:black') {
-        document.getElementById('lightsOffBtn').style = 'font-size:48px;color:white';
-      } else {
-        document.getElementById('lightsOffBtn').style = 'font-size:48px;color:black';
-      }
+      $('#lightsOnBtn').toggleClass('hidden');
+      $('#lightsOffBtn').toggleClass('hidden');
     }
 
     function nocontext(e) {
@@ -76,6 +73,7 @@
     <div class="subtitle">Cityscapes</div>
 
     <button id="lightsOffBtn" onclick="lightsOff()" style="font-size:48px;color:black"><i class="material-icons">lightbulb_outline</i></button>
+    <button id="lightsOnBtn" onclick="lightsOn()" style="font-size:48px;color:white"><i class="material-icons hidden">lightbulb_outline</i></button>
 
     <!-- Picture Slideshow -->
     <div class="slider slider1">
