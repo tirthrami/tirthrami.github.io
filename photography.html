@@ -5,8 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="js/jquery.localScroll.js" type="text/javascript"></script>
@@ -14,10 +14,10 @@
   <script type="text/javascript">
     function lightsOff() {
       $('.page').toggleClass('lightsoff');
-      if(document.getElementById('lightsOffBtn').style === 'font-size:48px;color:black') {
-        document.getElementById('lightsOffBtn').style='font-size:48px;color:white';
+      if (document.getElementById('lightsOffBtn').style === 'font-size:48px;color:black') {
+        document.getElementById('lightsOffBtn').style = 'font-size:48px;color:white';
       } else {
-        document.getElementById('lightsOffBtn').style='font-size:48px;color:black';
+        document.getElementById('lightsOffBtn').style = 'font-size:48px;color:black';
       }
     }
 
@@ -45,7 +45,9 @@
         lazyLoad: 'progressive'
       });
 
-      $('#nav-link-container').localScroll({duration:800});
+      $('#nav-link-container').localScroll({
+        duration: 800
+      });
 
     });
   </script>
@@ -70,92 +72,93 @@
   </div>
   <div class="page">
     <div class="divider"></div>
-  <a name="cityscapes"></a>
-  <div class="subtitle">Cityscapes</div>
+    <a name="cityscapes"></a>
+    <div class="subtitle">Cityscapes</div>
 
-  <button id="lightsOffBtn" onclick="lightsOff()" style="font-size:48px;color:black"><i class="material-icons">lightbulb_outline</i></button>
+    <button id="lightsOffBtn" onclick="lightsOff()" style="font-size:48px;color:black"><i class="material-icons">lightbulb_outline</i></button>
 
-  <!-- Picture Slideshow -->
-  <div class="slider slider1">
-    <div><img data-lazy="photos/NYC_Skyline_Daytime.jpg"></div>
-    <div><img data-lazy="photos/NotreDame-2.jpg"></div>
-    <div><img data-lazy="photos/NYC_Skyline_Revised.jpg"></div>
-    <div><img data-lazy="photos/EmpireState-1.jpg"></div>
-    <div><img data-lazy="photos/RubberDuck-1.jpg"></div>
-    <div><img data-lazy="photos/OldTowne-1.jpg"></div>
-    <div><img data-lazy="photos/Skyscraper-1.jpg"></div>
-    <div><img data-lazy="photos/Sunset-1.jpg"></div>
+    <!-- Picture Slideshow -->
+    <div class="slider slider1">
+      <div><img data-lazy="photos/NYC_Skyline_Daytime.jpg"></div>
+      <div><img data-lazy="photos/NotreDame-2.jpg"></div>
+      <div><img data-lazy="photos/NYC_Skyline_Revised.jpg"></div>
+      <div><img data-lazy="photos/EmpireState-1.jpg"></div>
+      <div><img data-lazy="photos/RubberDuck-1.jpg"></div>
+      <div><img data-lazy="photos/OldTowne-1.jpg"></div>
+      <div><img data-lazy="photos/Skyscraper-1.jpg"></div>
+      <div><img data-lazy="photos/Sunset-1.jpg"></div>
+    </div>
+
+    <a name="landscapes"></a>
+    <div class="subtitle">Landscapes</div>
+    <div class="slider slider2">
+      <div><img data-lazy="photos/Solar_Eclipse-2.jpg"></div>
+      <div><img data-lazy="photos/Bridge-1.jpg"></div>
+      <div><img data-lazy="photos/Lake-17.jpg"></div>
+      <div><img data-lazy="photos/HeavenlySunrise-2.jpg"></div>
+      <div><img data-lazy="photos/LivingUnderStars-1.jpg"></div>
+      <div><img data-lazy="photos/Marsh-1.jpg"></div>
+      <div><img data-lazy="photos/Shenandoah_Sunrise-3(Final Crop).jpg"></div>
+      <div><img data-lazy="photos/Astrophotography-2.jpg"></div>
+      <div><img data-lazy="photos/Lake-21.jpg"></div>
+      <div><img data-lazy="photos/Bridge-2 copy.jpg"></div>
+      <div><img data-lazy="photos/Shenandoah_Sunrise-5(Final Crop).jpg"></div>
+      <div><img data-lazy="photos/Lake-15.jpg"></div>
+      <div><img data-lazy="photos/NagsHead-40.jpg"></div>
+      <div><img data-lazy="photos/Lighthouse-1.jpg"></div>
+      <div><img data-lazy="photos/Shenandoah_Sunrise-1.jpg"></div>
+      <div><img data-lazy="photos/NiagraFalls-1.jpg"></div>
+      <div><img data-lazy="photos/Potomac-1.jpg"></div>
+      <div><img data-lazy="photos/Puddle-1.jpg"></div>
+      <div><img data-lazy="photos/Sunset-2.jpg"></div>
+    </div>
+
+    <a name="animals"></a>
+    <div class="subtitle">Animals</div>
+    <div class="slider slider3">
+      <div><img data-lazy="photos/Bees-1.jpg"></div>
+      <div><img data-lazy="photos/Dog-1.jpg"></div>
+      <div><img data-lazy="photos/Sparrow-1.jpg"></div>
+      <div><img data-lazy="photos/Bees-3.jpg"></div>
+      <div><img data-lazy="photos/Sparrow-2.jpg"></div>
+    </div>
+
+    <a name="people"></a>
+    <div class="subtitle">People</div>
+    <div class="slider slider4">
+      <div><img data-lazy="photos/Me-1.jpg"></div>
+      <div><img data-lazy="photos/Sunaad-57.jpg"></div>
+      <div><img data-lazy="photos/Vatsal-3.jpg"></div>
+      <div><img data-lazy="photos/Vihaan-9.jpg"></div>
+      <div><img data-lazy="photos/DropTower-1.jpg"></div>
+      <div><img data-lazy="photos/GoodDeeds-1.jpg"></div>
+      <div><img data-lazy="photos/Roof-1.jpg"></div>
+      <div><img data-lazy="photos/Bubbles-1.jpg"></div>
+    </div>
+
+    <a name="misc"></a>
+    <div class="subtitle">Miscellaneous</div>
+    <div class="slider slider5">
+      <div><img data-lazy="photos/Sunaad-53.jpg"></div>
+      <div><img data-lazy="photos/Charcoal-4.jpg"></div>
+      <div><img data-lazy="photos/MinionDrawing-1.jpg"></div>
+      <div><img data-lazy="photos/PianoKeys-1.jpg"></div>
+      <div><img data-lazy="photos/IMG_0158-1.jpg"></div>
+      <div><img data-lazy="photos/Charcoal-3.jpg"></div>
+      <div><img data-lazy="photos/Cadbury-1.jpg"></div>
+      <div><img data-lazy="photos/CardTower-2.jpg"></div>
+      <div><img data-lazy="photos/Diwali-1.jpg"></div>
+      <div><img data-lazy="photos/Flame-1.jpg"></div>
+      <div><img data-lazy="photos/Vintage-1.jpg"></div>
+      <div><img data-lazy="photos/IMG_0185-1.jpg"></div>
+      <div><img data-lazy="photos/iDroid-1.jpg"></div>
+      <div><img data-lazy="photos/Flame-2.jpg"></div>
+      <div><img data-lazy="photos/Journal-1.jpg"></div>
+      <div><img data-lazy="photos/Simplicity-1.jpg"></div>
+    </div>
+    <div class="divider"></div>
+    <!-- <a class="contactUs hidden" href="contactUs.php">Contact Us</a> -->
   </div>
-
-<a name="landscapes"></a>
-<div class="subtitle">Landscapes</div>
-<div class="slider slider2">
-  <div><img data-lazy="photos/Bridge-1.jpg"></div>
-  <div><img data-lazy="photos/Lake-17.jpg"></div>
-  <div><img data-lazy="photos/HeavenlySunrise-2.jpg"></div>
-  <div><img data-lazy="photos/LivingUnderStars-1.jpg"></div>
-  <div><img data-lazy="photos/Marsh-1.jpg"></div>
-  <div><img data-lazy="photos/Shenandoah_Sunrise-3(Final Crop).jpg"></div>
-  <div><img data-lazy="photos/Astrophotography-2.jpg"></div>
-  <div><img data-lazy="photos/Lake-21.jpg"></div>
-  <div><img data-lazy="photos/Bridge-2 copy.jpg"></div>
-  <div><img data-lazy="photos/Shenandoah_Sunrise-5(Final Crop).jpg"></div>
-  <div><img data-lazy="photos/Lake-15.jpg"></div>
-  <div><img data-lazy="photos/NagsHead-40.jpg"></div>
-  <div><img data-lazy="photos/Lighthouse-1.jpg"></div>
-  <div><img data-lazy="photos/Shenandoah_Sunrise-1.jpg"></div>
-  <div><img data-lazy="photos/NiagraFalls-1.jpg"></div>
-  <div><img data-lazy="photos/Potomac-1.jpg"></div>
-  <div><img data-lazy="photos/Puddle-1.jpg"></div>
-  <div><img data-lazy="photos/Sunset-2.jpg"></div>
-</div>
-
-<a name="animals"></a>
-<div class="subtitle">Animals</div>
-<div class="slider slider3">
-  <div><img data-lazy="photos/Bees-1.jpg"></div>
-  <div><img data-lazy="photos/Dog-1.jpg"></div>
-  <div><img data-lazy="photos/Sparrow-1.jpg"></div>
-  <div><img data-lazy="photos/Bees-3.jpg"></div>
-  <div><img data-lazy="photos/Sparrow-2.jpg"></div>
-</div>
-
-<a name="people"></a>
-<div class="subtitle">People</div>
-<div class="slider slider4">
-  <div><img data-lazy="photos/Me-1.jpg"></div>
-  <div><img data-lazy="photos/Sunaad-57.jpg"></div>
-  <div><img data-lazy="photos/Vatsal-3.jpg"></div>
-  <div><img data-lazy="photos/Vihaan-9.jpg"></div>
-  <div><img data-lazy="photos/DropTower-1.jpg"></div>
-  <div><img data-lazy="photos/GoodDeeds-1.jpg"></div>
-  <div><img data-lazy="photos/Roof-1.jpg"></div>
-  <div><img data-lazy="photos/Bubbles-1.jpg"></div>
-</div>
-
-<a name="misc"></a>
-<div class="subtitle">Miscellaneous</div>
-<div class="slider slider5">
-  <div><img data-lazy="photos/Sunaad-53.jpg"></div>
-  <div><img data-lazy="photos/Charcoal-4.jpg"></div>
-  <div><img data-lazy="photos/MinionDrawing-1.jpg"></div>
-  <div><img data-lazy="photos/PianoKeys-1.jpg"></div>
-  <div><img data-lazy="photos/IMG_0158-1.jpg"></div>
-  <div><img data-lazy="photos/Charcoal-3.jpg"></div>
-  <div><img data-lazy="photos/Cadbury-1.jpg"></div>
-  <div><img data-lazy="photos/CardTower-2.jpg"></div>
-  <div><img data-lazy="photos/Diwali-1.jpg"></div>
-  <div><img data-lazy="photos/Flame-1.jpg"></div>
-  <div><img data-lazy="photos/Vintage-1.jpg"></div>
-  <div><img data-lazy="photos/IMG_0185-1.jpg"></div>
-  <div><img data-lazy="photos/iDroid-1.jpg"></div>
-  <div><img data-lazy="photos/Flame-2.jpg"></div>
-  <div><img data-lazy="photos/Journal-1.jpg"></div>
-  <div><img data-lazy="photos/Simplicity-1.jpg"></div>
-</div>
-<div class="divider"></div>
-<!-- <a class="contactUs hidden" href="contactUs.php">Contact Us</a> -->
-</div>
 </body>
 
 </html>
