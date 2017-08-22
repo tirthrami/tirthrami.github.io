@@ -14,8 +14,13 @@
   <script type="text/javascript">
     function lightsOff() {
       $('.page').toggleClass('lightsoff');
-      $('#lightsOnBtn').toggleClass('hidden');
-      $('#lightsOffBtn').toggleClass('hidden');
+      $('#lightsOnBtn').removeClass('hidden');
+      $('#lightsOffBtn').addClass('hidden');
+    }
+    function lightsOn() {
+      $('.page').toggleClass('lightsoff');
+      $('#lightsOnBtn').addClass('hidden');
+      $('#lightsOffBtn').removeClass('hidden');
     }
 
     function nocontext(e) {
