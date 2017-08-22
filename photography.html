@@ -14,13 +14,13 @@
   <script type="text/javascript">
     function lightsOff() {
       $('.page').toggleClass('lightsoff');
-      $('#lightsOnBtn').removeClass('hidden');
-      $('#lightsOffBtn').addClass('hidden');
+      document.getElementById('lightsOnBtn').style.display = 'block';
+      document.getElementById('lightsOffBtn').style.display = 'none';
     }
     function lightsOn() {
       $('.page').toggleClass('lightsoff');
-      $('#lightsOnBtn').addClass('hidden');
-      $('#lightsOffBtn').removeClass('hidden');
+      document.getElementById('lightsOnBtn').style.display = 'none';
+      document.getElementById('lightsOffBtn').style.display = 'block';
     }
 
     function nocontext(e) {
