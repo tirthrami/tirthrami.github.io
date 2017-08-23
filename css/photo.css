@@ -156,7 +156,14 @@ img {
   text-decoration: none;
 }
 .contactUs.email{
+  fdisplay: inline-block;
+  margin: -3vh auto 2vh auto;
+  text-align: center;
+  font-size: 15px !important;
+  font-family: "OpenSans", sans-serif;
   font-weight: lighter;
+  color: #333;
+  text-decoration: none;
 }
 
 .hidden {
