@@ -60,6 +60,34 @@ img {
   color: #666;
 }
 
+#nav-link-container {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  top: 5vh;
+  padding: 0;
+  right: 0;
+  text-decoration: none;
+}
+#nav-link, li {
+  display: inline-block;
+  color: black;
+  font-family: "Abel", serif;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+#nav-link:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+@media(max-width: 900px) {
+  .nav>a {
+    font-size: 25px;
+  }
+}
+
 .divider {
   width: 90vw;
   height: 2px;
@@ -81,28 +109,6 @@ img {
   width: 90vw;
   text-align: center;
   margin: 5vh auto 5vh auto;
-}
-
-#nav-link-container {
-  position: absolute;
-  list-style-type: none;
-  margin: 0;
-  top: 5vh;
-  padding: 0;
-  right: 0;
-  text-decoration: none;
-}
-#nav-link, li {
-  display: inline-block;
-  color: black;
-  font-family: "Abel", serif;
-  padding-right: 10px;
-  text-decoration: none;
-}
-
-#nav-link:hover {
-  text-decoration: none;
-  color: #666;
 }
 
 #lightsOffBtn {
