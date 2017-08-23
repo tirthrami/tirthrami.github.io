@@ -69,6 +69,18 @@ img {
   right: 0;
   text-decoration: none;
 }
+
+.nav > #nav-link-container.visible {
+background: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 #nav-link, li {
   display: inline-block;
   color: black;
