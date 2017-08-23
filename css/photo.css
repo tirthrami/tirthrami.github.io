@@ -145,14 +145,18 @@ img {
     background-color: transparent; /* Set a background color */
 }
 
-.contactUs {
-  display: block;
+.contactUs.subtitle{
+  display: inline-block;
   margin: -3vh auto 2vh auto;
   text-align: center;
   font-size: 15px !important;
-  font-family: "Abel", sans-serif;
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
   color: #333;
   text-decoration: none;
+}
+.contactUs.email{
+  font-weight: lighter;
 }
 
 .hidden {
