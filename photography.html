@@ -49,6 +49,11 @@
     document.oncontextmenu = nocontext;
 
     $(document).ready(function() {
+      $('hamburger, #close').click(function() {
+          $('hamburger, #close').toggle();
+          $('#nav-link-container').toggleClass('visible');
+      });
+      
       $('.slider1').slick({
         lazyLoad: 'progressive'
       });
@@ -67,11 +72,6 @@
 
       $('#nav-link-container').localScroll({
         duration: 800
-      });
-
-      $('hamburger, #close').click(function() {
-          $('hamburger, #close').toggle();
-          $('#nav-link-container').toggleClass('visible');
       });
 
     });
