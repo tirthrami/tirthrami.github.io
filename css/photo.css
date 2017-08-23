@@ -81,7 +81,9 @@ img {
   text-decoration: none;
   color: #666;
 }
-
+#hamburger, #close {
+  display: none;
+}
 @media(max-width: 900px) {
   .nav>a {
     font-size: 25px;
