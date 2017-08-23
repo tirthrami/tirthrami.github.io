@@ -94,6 +94,14 @@ img {
     display: none;
   }
 
+  .divider {
+    margin: 5vh auto;
+  }
+
+  .page>.subtitle {
+    font-size: 25px;
+  }
+
 }
 
 .divider {
