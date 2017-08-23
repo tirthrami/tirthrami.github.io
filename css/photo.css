@@ -88,6 +88,7 @@ img {
   }
   .nav>a {
     font-size: 35px;
+    padding-left: 0;
   }
 
   #nav-link-container {

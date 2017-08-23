@@ -21,6 +21,10 @@ html, body {
   .hero {
     text-align: center;
   }
+
+  #main-button {
+    margin: 20px;
+  }
 }
 .btn-outline-secondary {
   border-radius: 2;
