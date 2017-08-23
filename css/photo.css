@@ -95,11 +95,11 @@ img {
   }
 
   .divider {
-    margin: 5vh auto;
+    margin: 5vh auto !important;
   }
 
   .page>.subtitle {
-    font-size: 25px;
+    font-size: 25px !important;
   }
 
 }
