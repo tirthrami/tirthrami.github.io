@@ -79,6 +79,7 @@ background: #fff;
   align-items: center;
   justify-content: center;
   text-align: center;
+  z-index: 990;
 }
 
 #nav-link, li {
