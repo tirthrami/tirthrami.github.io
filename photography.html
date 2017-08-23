@@ -49,11 +49,6 @@
     document.oncontextmenu = nocontext;
 
     $(document).ready(function() {
-      $('#hamburger, #close').click(function() {
-          $('#hamburger, #close').toggle();
-          $('#nav-link-container').toggleClass('visible');
-      });
-
       $('.slider1').slick({
         lazyLoad: 'progressive'
       });
@@ -87,8 +82,6 @@
   <!-- Nav -->
   <div class="nav">
     <a href="index.html">TIRTH THE ARTIST PHOTOGRAPHY</a>
-    <i id="hamburger" class="fa fa-bars" aria-hidden="true"></i>
-    <i id="close" class="fa fa-times" aria-hidden="true"></i>
     <ul id="nav-link-container">
       <li><a class="cityscapes-link" id="nav-link" href="#cityscapes">Cityscapes</a></li>
       <li><a class="landscapes-link" id="nav-link" href="#landscapes">Landscapes</a></li>
