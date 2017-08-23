@@ -153,14 +153,10 @@ img {
   display: block;
   margin: -3vh auto 2vh auto;
   text-align: center;
+  font-size: 15px !important;
   font-family: "Abel", sans-serif;
-  color: black;
+  color: #333;
   text-decoration: none;
-}
-
-.contactUs:hover {
-  color: black;
-  text-decoration: underline;
 }
 
 .hidden {
