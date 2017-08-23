@@ -71,7 +71,7 @@ img {
 .page>.slider {
   width: 90vw;
   height: 90vh;
-  margin: auto;
+  margin: 0 auto auto auto;
 }
 
 .page>.subtitle {
