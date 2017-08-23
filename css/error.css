@@ -13,11 +13,11 @@ body {
 }
 
 .nav {
-  display: flex;
   width: 100%;
   background-color: #fff;
   height: 10vh;
   align-items: center;
+  text-align: center;
   margin: 2vh 0 0 0;
 }
 
@@ -28,10 +28,6 @@ body {
   font-size: 35px;
   padding-left: 25px;
   text-decoration: none;
-}
-
-.nav>a:hover {
-  color: #666;
 }
 
 .divider {
@@ -51,28 +47,16 @@ body {
     padding-left: 0;
   }
 
-  #nav-link-container {
-    display: none;
-  }
-
   .divider {
     margin: 5vh auto !important;
   }
 
-  .page>.subtitle {
-    font-size: 25px !important;
-  }
-
 }
 
-.comingSoon {
+.error {
   display: block;
   text-align: center;
   font-family: "Abel", sans-serif;
   color: black;
   text-decoration: none;
-}
-
-.hidden {
-  display: none;
 }
