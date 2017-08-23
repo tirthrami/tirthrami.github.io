@@ -155,8 +155,8 @@ img {
   color: #333;
   text-decoration: none;
 }
-.contactUs.email{
-  fdisplay: inline-block;
+.email{
+  display: inline-block;
   margin: -3vh auto 2vh auto;
   text-align: center;
   font-size: 15px !important;
