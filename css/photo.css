@@ -93,6 +93,15 @@ img {
     top: 0;
     right: 0;
     padding: 20px 20px;
+    z-index: 999;
+  }
+
+  #nav-link-container {
+    display: none;
+  }
+
+  #close {
+    display: none;
   }
 }
 
