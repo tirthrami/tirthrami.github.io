@@ -97,6 +97,7 @@ img {
   }
 
   #hamburger, #close {
+    display: block;
     color: #333;
     position: absolute;
     top: 0;
