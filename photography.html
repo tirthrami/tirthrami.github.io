@@ -18,7 +18,6 @@
       document.getElementById('lightsOnBtn').style.display = 'block';
       document.getElementById('lightsOffBtn').style.display = 'none';
       textLightsOff();
-
     }
 
     function lightsOn() {
@@ -68,6 +67,11 @@
 
       $('#nav-link-container').localScroll({
         duration: 800
+      });
+
+      $('hamburger, #close').click(function() {
+          $('hamburger, #close').toggle();
+          $('.nav #nav-link-container').toggleClass('visible');
       });
 
     });
