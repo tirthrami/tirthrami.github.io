@@ -146,12 +146,11 @@ img {
 }
 
 .contactUs.subtitle{
-  display: inline-block;
+  width: 100%;
   margin: -3vh auto 2vh auto;
-  text-align: center;
   font-size: 15px !important;
-  font-family: "OpenSans", sans-serif;
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-weight:600;
   color: #333;
   text-decoration: none;
 }
@@ -160,7 +159,7 @@ img {
   margin: -3vh auto 2vh auto;
   text-align: center;
   font-size: 15px !important;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   color: #333;
   text-decoration: none;
