@@ -133,6 +133,7 @@ background: #fff;
   width: 90vw;
   height: 90vh;
   margin: 0 auto auto auto;
+  z-index: 50;
 }
 
 .page>.subtitle {
