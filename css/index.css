@@ -18,6 +18,8 @@ html, body {
   position: fixed;
   top: 75vh;
   left: 16vw;
+  font-size: 100px;
+  color: white;
 }
 @media(max-width: 900px){
   .hero {
