@@ -4,37 +4,26 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: #111;
 }
 
 .hero {
-    width: 100%; // or whatever
-    height: 100%;
     position: relative;
-    background-color: #111;
+    z-index: 100;
 }
 
-.hero-particles, .hero-content {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%; // of .hero
-    height: 100%;
-}
-
-.hero-particles {
-    z-index: 0;
-}
-
-.hero-content {
-    z-index: 1;
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
 }
 
 #name {
   font-family: "Open Sans";
   font-weight: 100;
-  position: relative;
-  top: 55vh;
-  left: 5vw;
   font-size: 15vh;
   color: white;
 }
@@ -42,9 +31,6 @@ html, body {
 #profession {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  position: relative;
-  top: 72vh;
-  left: 12vw;
   color: #999;
   font-size: 5vh;
 }
