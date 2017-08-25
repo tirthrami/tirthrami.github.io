@@ -13,23 +13,23 @@ html, body {
 }
 
 #name {
-    font-family: "Open Sans";
-    font-weight: 100;
-    position: fixed;
-    top: 65vh;
-    left: 10vw;
-    font-size: 15vh;
-    color: white;
+  font-family: "Open Sans";
+  font-weight: 100;
+  position: fixed;
+  top: 55vh;
+  left: 5vw;
+  font-size: 15vh;
+  color: white;
 }
 
 #profession {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   position: fixed;
-  top: 80vh;
-  left: 16vw;
-  color: white;
-  font-size: 7vh;
+  top: 72vh;
+  left: 12vw;
+  color: #999;
+  font-size: 5vh;
 }
 @media(max-width: 900px){
   .hero {
