@@ -5,41 +5,31 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Abel:100,200,300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600,700" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="css/index.css">
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js">
+    $(function() {
+      setTimeout(function() {
+        $('.hero > .fly-in-header').removeClass('hidden');
+      }, 500);
+    })();
+  </script>
   <title>Tirth The Artist</title>
 </head>
 
 <body>
   <!-- Hero -->
   <div class="hero">
-    <ul class="fly-in-header hidden">
-      <li>TIRTH </li>
-      <li>RAMI</li>
-    </ul>
-    <b1>
-      <a href="photography.html"><button type="button" id="main-button" class="btn btn-outline-secondary">photography</button></a>
-
-      <a href="projects.html"><button type="button" id="main-button" class="btn btn-outline-secondary">projects</button></a>
-    </b1>
-  <!--  <a class="contactUs hidden" href="contactUs.php">Contact Us</a> -->
+    <div id="name"> > Tirth Rami</div>
+    <div id="profession">Artist | Developer</div>
   </div>
-
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    $(function() {
-      setTimeout(function() {
-        $('.hero > .fly-in-header').removeClass('hidden');
-      }, 500);
-    })();
-
-  </script>
 </body>
 
 </html>

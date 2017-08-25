@@ -9,21 +9,19 @@ html, body {
 .hero {
   height: 100vh;
   width: 100vw;
-  background: url("../res/bg1.jpg");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background: #111;
+}
+
+#name {
+  font-family: "Open Sans";
+  font-weight: 100;
+  position: fixed;
+  top: 75vh;
+  left: 16vw;
 }
 @media(max-width: 900px){
   .hero {
     text-align: center;
-  }
-
-  #main-button {
-    margin: 20px;
   }
 }
 .btn-outline-secondary {
