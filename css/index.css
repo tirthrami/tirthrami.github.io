@@ -52,53 +52,13 @@ html, body {
   margin-top: 10vh;
 }
 @media(max-width: 900px){
-  .hero {
-    text-align: center;
+  #name {
+    font-size: 5vh;
   }
-}
-.btn-outline-secondary {
-  border-radius: 2;
-  background-color: transparent;
-  border-color: #000;
-  color: #000;
-  font-family: "Abel", sans-serif;
-  text-align: center;
-  align-items: center;
-  padding: 8px 0px 3px 0px;
-  width: 200px;
-}
-.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary.active{
-  color: #fff;
-  background-color: #000;
-  border-color: #000;
-}
 
-.hero > .fly-in-header {
-  list-style: none;
-  margin-bottom: -20px;
-  align-self: center;
-}
-.hero > .fly-in-header li {
-  display: inline-block;
-  color: #000;
-  font-family: "Abel", sans-serif;
-  font-style: thin;
-  margin-right: 25px;
-  font-size: 125px;
-  opacity: 1;
-  transition: all 1.5s ease;
-}
-
-.hero > .fly-in-header.hidden li {
-  opacity: 0;
-}
-.hero > .fly-in-header.hidden li:nth-child(1) { transform: translateX(-400px) translateY(-400px); }
-.hero > .fly-in-header.hidden li:nth-child(2) { transform: translateX(400px) translateY(-20px); }
-/*.hero > .fly-in-header.hidden li:nth-child(3) { transform: translateX(30px) translateY(100px); } */
-
-#main-button {
-  margin: 0px 20px 0px 20px;
-  font-size: 20px;
+  #profession {
+    font-size: 1vh;
+  }
 }
 
 .hero > .contactUs {
