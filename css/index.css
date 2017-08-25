@@ -15,7 +15,7 @@ html, body {
 #name {
   font-family: "Open Sans";
   font-weight: 100;
-  position: fixed;
+  position: relative;
   top: 55vh;
   left: 5vw;
   font-size: 15vh;
@@ -25,7 +25,7 @@ html, body {
 #profession {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  position: fixed;
+  position: relative;
   top: 72vh;
   left: 12vw;
   color: #999;
