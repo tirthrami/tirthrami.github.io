@@ -72,6 +72,10 @@ html, body {
   }
 }
 
+#description {
+  background-color: white;
+  
+}
 .hero > .contactUs {
   position: absolute;
   bottom: 0;
