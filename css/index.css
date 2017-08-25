@@ -53,11 +53,22 @@ html, body {
 }
 @media(max-width: 900px){
   #name {
+    font-size: 15vh;
+  }
+  #profession {
     font-size: 5vh;
   }
-
+}
+@media(orientation: portrait){
+  #name {
+    font-size: 8vh;
+  }
   #profession {
-    font-size: 1vh;
+    font-size: 3vh;
+    margin-top: -2vh;
+  }
+  #downArrow {
+    margin-top: 20vh;
   }
 }
 
