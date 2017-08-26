@@ -76,8 +76,8 @@ html, body {
 #description {
   background-color: white;
   display: flex;
-  flex-direction: row;
-  height: 50vh;
+  flex-direction: column;
+  height: 70vh;
   width: 100vw;
 }
 #aboutme-title {
@@ -106,13 +106,17 @@ html, body {
   text-align: left;
   width:100%;
   padding:5vh;
+  display: flex;
+  flex-direction: row;
 }
-
 #me {
   height: 50vh;
   width: 50vh;
-  padding: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 10vh;
+  padding-right:
 }
+
 #projects {
   display: flex;
   height: 50vh;
