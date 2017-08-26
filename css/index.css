@@ -116,6 +116,11 @@ html, body {
   padding-left: 10vh;
   padding-right:
 }
+@@media(orientation: portrait) {
+  #me {
+    display: none;
+  }
+}
 
 #projects {
   display: flex;
