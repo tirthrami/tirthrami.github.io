@@ -76,7 +76,7 @@ html, body {
 #description {
   background-color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 50vh;
   width: 100vw;
 }
