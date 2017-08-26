@@ -78,12 +78,21 @@ html, body {
   height: 50vh;
   width: 100vw;
 }
-#aboutme {
+#aboutme-title {
   font-family: "Abel";
   font-size: 5vh;
   font-weight: 600;
   color: #111;
   text-align: center;
+  width:100%;
+  padding-top:3vh;
+}
+#aboutme-desc {
+  font-family: "Open Sans";
+  font-size: 1vh;
+  font-weight: 300;
+  color: #111;
+  text-align: left;
   width:100%;
   padding-top:3vh;
 }
