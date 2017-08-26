@@ -75,6 +75,7 @@ html, body {
 #description {
   background-color: white;
   display: flex;
+  flex-direction: column;
   height: 50vh;
   width: 100vw;
 }
@@ -98,12 +99,12 @@ html, body {
 }
 #aboutme-desc {
   font-family: "Open Sans";
-  font-size: 1vh;
+  font-size: 2vh;
   font-weight: 300;
   color: #111;
   text-align: left;
   width:100%;
-  padding-top:3vh;
+  padding:5vh;
 }
 #projects {
   display: flex;
