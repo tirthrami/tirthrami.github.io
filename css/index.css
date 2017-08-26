@@ -50,6 +50,7 @@ html, body {
   text-align: center;
   position: relative;
   margin-top: 10vh;
+  padding-bottom: 1vh;
 }
 @media(max-width: 900px){
   #name {
@@ -91,7 +92,7 @@ html, body {
 #aboutme-desc-title {
   font-family: "Open Sans";
   font-size: 2.5vh;
-  font-weight: 300;
+  font-weight: 400;
   color: #111;
   text-align: center;
   width:100%;
