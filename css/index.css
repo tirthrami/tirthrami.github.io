@@ -87,6 +87,15 @@ html, body {
   width:100%;
   padding-top:3vh;
 }
+#aboutme-desc-title {
+  font-family: "Open Sans";
+  font-size: 2.5vh;
+  font-weight: 300;
+  color: #111;
+  text-align: center;
+  width:100%;
+  padding-top:1vh;
+}
 #aboutme-desc {
   font-family: "Open Sans";
   font-size: 1vh;
