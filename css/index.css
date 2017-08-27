@@ -216,6 +216,7 @@ h3 {
   width: auto;
   text-align: center;
   font-size: 3vh;
+  font-weight: 600;
   color: #111;
 }
 #photo-link:hover{
