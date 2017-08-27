@@ -171,6 +171,16 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+h3 {
+  font-family: "Abel";
+  font-size: 5vh;
+  font-weight: 600;
+  color: white;
+   position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .hero > .contactUs {
   position: absolute;
