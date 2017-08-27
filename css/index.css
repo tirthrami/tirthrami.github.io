@@ -146,9 +146,12 @@ html, body {
   text-align: center;
   padding: 3vh;
 }
-
 .container:hover {
   background-color: #111;
+}
+
+a:hover, a:visited, a:link, a:active{
+  text-decoration: none;
 }
 
 .container:hover h1, .container:hover h2 {
