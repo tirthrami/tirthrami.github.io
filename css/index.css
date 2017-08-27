@@ -223,7 +223,8 @@ h3 {
   font-size: 3vh;
   font-weight: 600;
   color: #111;
-  padding-bottom: 5%;
+  padding: 10vh;
+  background: src("/res/bg1/jpg")
 }
 #photo-link:hover{
   color: #666;
