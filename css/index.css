@@ -200,12 +200,7 @@ h3 {
   flex-direction: column;
   padding: 2vh;
 }
-#photography:hover, #photography:hover #photography-title{
-  background-color: #111;
-}
-#photography:hover #photography-desc, #photography:hover #photo-link, #photography:hover #photography-title {
-  color: white;
-}
+
 #photography-desc {
   font-family: "Open Sans";
   font-size: 2vh;
