@@ -209,6 +209,11 @@ h3 {
   width:100%;
   padding:7vh;
 }
+#photo-link {
+  width: 100%;
+  margin: 20%;
+  color: #111;
+}
 
 .contactUs.subtitle{
   background-color: white;
