@@ -126,7 +126,7 @@ html, body {
   display: flex;
   height: 50vh;
   width: 100vw;
-  background-color: #999999;
+  background-color: #ddd;
 }
 .hero > .contactUs {
   position: absolute;
