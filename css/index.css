@@ -191,6 +191,11 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media(orientation: portrait) {
+  h1 {
+    font-size: 4vh;
+  }
+}
 
 #photography {
   display: flex;
