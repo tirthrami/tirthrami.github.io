@@ -200,7 +200,7 @@ h3 {
   flex-direction: column;
   padding: 2vh;
 }
- 
+
 #photography-desc {
   font-family: "Open Sans";
   font-size: 2vh;
@@ -213,15 +213,13 @@ h3 {
 #photo-link {
   position: relative;
   top: 30%;
-  width:60%;
+  width: auto;
   text-align: center;
   font-size: 5vh;
   color: #111;
-  margin: 0 20% 0 20%;
 }
 #photo-link:hover{
-  background-color: #111;
-  color: white;
+  color: #666;
 }
 
 .contactUs.subtitle{
