@@ -132,7 +132,7 @@ html, body {
   padding: 2vh;
 }
 
-#projects-title {
+#projects-title, #photography-title {
   background-color: white;
   -webkit-box-shadow: inset 0 8px 8px -9px #111;
     -moz-box-shadow: inset 0 8px 8px -9px #111;
@@ -200,10 +200,10 @@ h3 {
   flex-direction: column;
   padding: 2vh;
 }
-#photography:hover{
+#photography:hover, #photography:hover #photography-title{
   background-color: #111;
 }
-#photography:hover #photography-desc, #photography:hover #photo-link {
+#photography:hover #photography-desc, #photography:hover #photo-link, #photography:hover #photography-title {
   color: white;
 }
 #photography-desc {
