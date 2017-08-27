@@ -126,18 +126,26 @@ html, body {
   display: flex;
   height: 50vh;
   width: 100vw;
-  background-color: transparent;
-  display: flex;
+  background-color: white;
+  display: inline-flex;
   flex-direction: row;
+  padding: 2vh;
 }
 
 .container {
   width: 50%;
   height: 100%;
   background-color: white;
+  text-align: center;
+  padding: 3vh;
 }
+
+.container:hover {
+  background-color: #ddd;
+}
+
 #dodgeblocks, #mafia {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
@@ -148,7 +156,11 @@ h1 {
 
 h2 {
   font-family: "Open Sans", sans-serif;
-  font-size: 3vh;
+  font-size: 2vh;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hero > .contactUs {
