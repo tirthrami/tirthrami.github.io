@@ -141,7 +141,11 @@ html, body {
 }
 
 .container:hover {
-  background-color: #ddd;
+  background-color: #111;
+}
+
+.container:hover h1, .container:hover h2 {
+  color: white;
 }
 
 #dodgeblocks, #mafia {
@@ -152,10 +156,12 @@ html, body {
 h1 {
   font-family: "Abel", sans-serif;
   font-size: 5vh;
+  color: #111;
 }
 
 h2 {
   font-family: "Open Sans", sans-serif;
+  color: #111;
   font-size: 2vh;
    position: absolute;
   top: 50%;
