@@ -224,9 +224,10 @@ h3 {
   font-weight: 600;
   color: #111;
   padding: 10vh;
-  background: url("/res/bg1/jpg");
+  margin: 0vh 10vw;
+  background: url("/res/bg2.jpg");
   background-position: center;
-  border: 2px, solid, #111;
+  border: 2px solid #111;
 }
 #photo-link:hover{
   color: #666;
