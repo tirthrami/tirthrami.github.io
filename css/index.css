@@ -127,15 +127,28 @@ html, body {
   height: 50vh;
   width: 100vw;
   background-color: transparent;
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
-  column-count: 2;
+  display: flex;
+  flex-direction: row;
 }
 
-#dodgeblocks, #mafia {
+.container {
   width: 50%;
   height: 100%;
   background-color: white;
+}
+#dodgeblocks, #mafia {
+  width: 50%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Abel", sans-serif;
+  font-size: 5vh;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3vh;
 }
 
 .hero > .contactUs {
