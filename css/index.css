@@ -132,6 +132,12 @@ html, body {
   column-count: 2;
 }
 
+#dodgeblocks, #mafia {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
 .hero > .contactUs {
   position: absolute;
   bottom: 0;
