@@ -150,7 +150,7 @@ html, body {
   background-color: #111;
 }
 
-a:hover, a:visited, a:link, a:active{
+ a:hover, a:visited, a:link, a:active{
   text-decoration: none;
 }
 
@@ -199,6 +199,12 @@ h3 {
   background-color: white;
   flex-direction: column;
   padding: 2vh;
+}
+#photography:hover{
+  background-color: #111;
+}
+#photography:hover #photography-desc, #photography:hover #photo-link {
+  color: white;
 }
 #photography-desc {
   font-family: "Open Sans";
