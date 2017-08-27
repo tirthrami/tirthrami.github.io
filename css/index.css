@@ -80,7 +80,7 @@ html, body {
   height: 70vh;
   width: 100vw;
 }
-#aboutme-title {
+.subtitle {
   font-family: "Abel";
   font-size: 5vh;
   font-weight: 600;
@@ -132,6 +132,9 @@ html, body {
   padding: 2vh;
 }
 
+#projects-title {
+
+}
 .container {
   width: 50%;
   height: 100%;
