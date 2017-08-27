@@ -211,15 +211,15 @@ h3 {
   padding:7vh;
 }
 #photo-link {
+  font-family: "Abel", sans-serif;
   position: relative;
-  top: 30%;
   width: auto;
   text-align: center;
   font-size: 5vh;
   color: #111;
 }
 #photo-link:hover{
-  color: #666; 
+  color: #666;
 }
 
 .contactUs.subtitle{
