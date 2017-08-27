@@ -224,7 +224,8 @@ h3 {
   font-weight: 600;
   color: #111;
   padding: 10vh;
-  background: src("/res/bg1/jpg");
+  background: url("/res/bg1/jpg");
+  border: 2px, solid, #111;
 }
 #photo-link:hover{
   color: #666;
