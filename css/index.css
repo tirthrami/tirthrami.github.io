@@ -125,8 +125,9 @@ html, body {
 #projects {
   display: flex;
   height: 50vh;
-  width: 100vw;
+  width: 50vw;
   background-color: #eeeeee;
+  border-radius: 50%;
 }
 .hero > .contactUs {
   position: absolute;
