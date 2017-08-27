@@ -126,8 +126,12 @@ html, body {
   display: flex;
   height: 50vh;
   width: 100vw;
-  background-color: #eeeeee;
+  background-color: transparent;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
 }
+
 .hero > .contactUs {
   position: absolute;
   bottom: 0;
