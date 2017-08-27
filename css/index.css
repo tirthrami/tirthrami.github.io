@@ -192,6 +192,24 @@ h3 {
   transform: translate(-50%, -50%);
 }
 
+#photography {
+  display: flex;
+  height: 50vh;
+  width: 100vw;
+  background-color: white;
+  flex-direction: column;
+  padding: 2vh;
+}
+#photography-desc {
+  font-family: "Open Sans";
+  font-size: 2vh;
+  font-weight: 300;
+  color: #111;
+  text-align: left;
+  width:100%;
+  padding:7vh;
+}
+
 .contactUs.subtitle{
   background-color: white;
   width: 100%;
