@@ -223,6 +223,16 @@ h3 {
   color: #666;
 }
 
+#instagram {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #111;
+  font-size: 2vh;
+}
+#instagram:hover{
+  color: #666;
+}
 .contactUs.subtitle{
   background-color: white;
   width: 100%;
