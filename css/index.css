@@ -233,6 +233,11 @@ h3 {
   color: white;
   background: #111;
 }
+@media(orientation: portrait) {
+  #photo-link {
+    padding: 5vh;
+  }
+}
 
 #instagram {
   position: relative;
