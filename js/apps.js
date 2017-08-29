@@ -1,7 +1,7 @@
 particlesJS.load('particles-js', 'js/particles.json');
 
 $(document).ready(function() {
-$(.localScroll({
+$.localScroll({
   duration: 800
 });
 });
