@@ -15,20 +15,13 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <!-- javaScript -->
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script src="dist/js/smooth-scroll.js"></script>
   <script src="particles.js"></script>
   <script src="js/apps.js"></script>
   <script type="text/javascript">
-    $(document).ready(function() {
-      $('a[href^="#"]').click(function(e) {
-        e.preventDefault();
-        var target = this.hash, $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function() {
-            window.location.hash = target;
-        });
-    });
-    });
+      var scroll = new SmoothScroll('a[href*="#"]');
+      speed: 500,
+	    easing: 'easeInOutCubic'
   </script>
   <title>Tirth Rami</title>
 </head>
@@ -42,18 +35,18 @@
   </div>
   <div id="particles-js"></div>
 
-  <a href="#aboutme-jump" class="aboutme-button"><i class="fa fa-user" aria-hidden="true"></i></a>
-  <a href="#projects-jump" class="project-button"><i class="fa fa-code" aria-hidden="true"></i></a>
+  <a data-scroll href="#aboutme-jump" class="aboutme-button"><i class="fa fa-user" aria-hidden="true"></i></a>
+  <a data-scroll href="#projects-jump" class="project-button"><i class="fa fa-code" aria-hidden="true"></i></a>
   <a href="photography.html" class="photography-button"><i class="fa fa-camera-retro" aria-hidden="true"></i></a>
 
   <div id="description">
-    <a name="aboutme-jump"></a>
+    <a id="aboutme-jump"></a>
     <div id="aboutme-title" class="subtitle">ABOUT ME</div>
     <div id="aboutme-desc-title">Always testing my creativity.</div>
     <div id="aboutme-desc">My passion for software development is rooted in my creativity. What started as a passion for photogrpahy, developed into software. I strive to use the same creativity I have for art in my software as well. This passion I have is what has lead me
       on this career path. I will be graduating George Mason University with a bachelors degree in Computer Science. <br><br> I am always trying to learn new things and gain more experience. <img id="me" src="res/me.jpg" alt=""></div>
   </div>
-  <a name="projects-jump"></a>
+  <a id="projects-jump"></a>
   <div id="projects-title" class="subtitle">PROJECTS</div>
   <div id="projects">
     <a class="container" href="https://play.google.com/store/apps/details?id=com.tirththeartist.impossiblegame&hl=en" target="_blank">
