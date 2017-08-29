@@ -78,7 +78,7 @@ html, body {
 .aboutme-button, .project-button, .photography-button {
   position: fixed;
   bottom: 0;
-  margin: 1vh;
+  margin: 2vh 1vh;
   font-size: 3.5vh;
   z-index: 999;
 }
