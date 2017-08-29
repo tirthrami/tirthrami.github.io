@@ -74,6 +74,7 @@ html, body {
 }
 .fa {
   color: #111;
+  padding: .5vh;
 }
 .aboutme-button, .project-button, .photography-button {
   position: fixed;
