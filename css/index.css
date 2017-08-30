@@ -83,6 +83,13 @@ html, body {
   font-size: 3.5vh;
   z-index: 999;
 }
+
+@media(max-width: 900px){
+  .aboutme-button, .project-button, .photography-button {
+    display: none;
+  }
+}
+
 .aboutme-button {
   right: 15vw;
 }
